@@ -3,14 +3,14 @@
     "description": "Base OS container for Alpine",
     "args": {
         "BUILD_FROM": "alpine",
-        "BUILD_FROM_TAG": "3.13.5",
+        "BUILD_FROM_TAG": "3.14.0",
         "OS_VARIANT": "alpine"
     },
     "tags": [
         "latest",
         "3",
-        "3.13",
-        "3.13.5"
+        "3.14",
+        "3.14.0"
     ],
     "platforms": [
         "linux/amd64"
