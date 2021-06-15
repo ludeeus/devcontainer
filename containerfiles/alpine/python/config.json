@@ -3,7 +3,7 @@
     "description": "Base runtime container for Python",
     "args": {
         "BUILD_FROM": "ghcr.io/ludeeus/alpine/base",
-        "BUILD_FROM_TAG": "3.13.5",
+        "BUILD_FROM_TAG": "3.14.0",
         "OS_VARIANT": "alpine",
         "INSTALL_RUNTIME": "python",
         "RUNTIME_PATH": "/usr/local/python/bin"
