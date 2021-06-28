@@ -3,7 +3,7 @@
     "description": "Devcontainer for developing custom integrations for Home Assistant",
     "args": {
         "BUILD_FROM": "ghcr.io/ludeeus/debian/python",
-        "BUILD_FROM_TAG": "3.9.5",
+        "BUILD_FROM_TAG": "3.9.6",
         "CONTAINER_TYPE": "integration",
         "OS_VARIANT": "debian"
     },
