@@ -16,6 +16,11 @@ function StartHomeAssistant {
     ln -sf "$(GetWorkspaceName).devcontainer/secrets.yaml" /config/secrets.yaml || echo ""
   fi
 
+  if test -d "blueprints"; then
+    echo "Copy automation blueprints"
+    cp -r blueprints/* /config/blueprints/ || echo "Failed to copy blueprints"
+  fi
+
   if test -d "custom_components"; then
     echo "Symlink the custom component directory"
 
