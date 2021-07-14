@@ -3,7 +3,7 @@
     "description": "Devcontainer for developing custom frontend plugins for Home Assistant",
     "args": {
         "BUILD_FROM": "ghcr.io/ludeeus/debian/node",
-        "BUILD_FROM_TAG": "16.3.0",
+        "BUILD_FROM_TAG": "16.5.0",
         "CONTAINER_TYPE": "frontend",
         "OS_VARIANT": "debian"
     },
